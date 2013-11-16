@@ -1,6 +1,6 @@
 * { box-sizing: border-box; } 
 
-body { background-color: #091c36; }
+body { background-color: rgb(9,28,54); }
 
 img { width: 100%; }
 
@@ -27,11 +27,36 @@ header img {
 }
 
 nav {
-    border-top: 10px solid #091c36;
+    border-top: 10px solid rgb(9,28,54);
+}
+
+nav ul {
+    display: none;   
 }
 
 section {
+
 }
 
+.cta, section p + a {
+    background-color: rgba(9,28,54,.7);
+    border-radius: 10px;
+    color: rgba(255,255,255,.7);
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+}
+
+
+article {
+    border-bottom: 1px solid gray;
+}
+
+
 footer {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
 }
