@@ -13,6 +13,7 @@ img { width: 100%; }
 }
 
 nav, section, footer {
+    color: #000;
     background-color: #fff;
     padding: 10px;
 }
@@ -29,8 +30,9 @@ header h1 {
 header img {
 }
 
+
 nav {
-    border-top: 10px solid rgb(9,28,54);
+    border-top: 22px solid rgb(9,28,54);
 }
 
 nav ul {
@@ -53,11 +55,20 @@ section {
     width: 50%;
 }
 
-
 article {
     border-bottom: 1px solid gray;
 }
 
+a { 
+    font-weight:600;
+}
+
+p a {
+    font-weight:500;
+}
+.twitter-timeline {
+    width: 100%
+}
 
 footer {
     border-radius: 0 0 10px 10px;
