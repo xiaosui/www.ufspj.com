@@ -1,9 +1,15 @@
 * { box-sizing: border-box; } 
 
 body { 
+<<<<<<< HEAD
+    
+    font-family: helvetica, arial, sans-serif;
+    background-color: rgb(9,28,54); }
+=======
     background-color: rgb(9,28,54); 
     font-family: helvetica, arial, sans-serif;    
 }
+>>>>>>> master
 
 img { width: 100%; }
 
@@ -59,6 +65,22 @@ article {
     border-bottom: 1px solid gray;
 }
 
+<<<<<<< HEAD
+article ul
+{
+list-style-type:disc;
+padding: 0px;
+margin: 0px;
+display:block-inline;
+
+}
+
+article ul+li
+{
+text-align: left;
+padding: 0px;
+padding-left: 14px; 
+=======
 a { 
     font-weight:600;
 }
@@ -68,9 +90,15 @@ p a {
 }
 .twitter-timeline {
     width: 100%
+>>>>>>> master
 }
 
 footer {
     border-radius: 0 0 10px 10px;
+<<<<<<< HEAD
+    margin-bottom: 20px;   
+    text-align: center;
+=======
     margin-bottom: 20px;
+>>>>>>> master
 }
