@@ -35,11 +35,15 @@ header h1 {
 
 header img {
 }
+h1{
+    color: rgb (9,28,54);
+}
 
 
 nav {
     border-top: 22px solid rgb(9,28,54);
 }
+
 
 nav ul {
     display: none;   
@@ -63,6 +67,10 @@ section {
 
 article {
     border-bottom: 1px solid gray;
+}
+article + footer {
+    border-bottom: rgb(9,28,54);
+    
 }
 
 <<<<<<< HEAD
@@ -102,3 +110,4 @@ footer {
     margin-bottom: 20px;
 >>>>>>> master
 }
+
