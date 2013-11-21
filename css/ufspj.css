@@ -1,7 +1,6 @@
 * { box-sizing: border-box; } 
 
 body { 
-<<<<<<< HEAD
     
     font-family: helvetica, arial, sans-serif;
     background-color: rgb(9,28,54); }
@@ -9,7 +8,6 @@ body {
     background-color: rgb(9,28,54); 
     font-family: helvetica, arial, sans-serif;    
 }
->>>>>>> master
 
 img { width: 100%; }
 
@@ -33,13 +31,22 @@ header h1 {
     text-indent: -10000px;
 }
 
+header h2 {
+    background-color: rgb(9,28,54);
+    color: white
+}
+
 header img {
+}
+h1{
+    color: rgb (9,28,54);
 }
 
 
 nav {
     border-top: 22px solid rgb(9,28,54);
 }
+
 
 nav ul {
     display: none;   
@@ -61,8 +68,36 @@ section {
     width: 50%;
 }
 
+@media screen and (max-width: 400px) {
+    
+    body {
+        padding: 3%
+    }
+
+    h1, h2 {
+    text-align: center;
+    font-size: 18px;
+    }
+
+    nav {
+    border: 0;
+    width: 100%;
+}
+    
+    p {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+
 article {
     border-bottom: 1px solid gray;
+}
+article + footer {
+    border-bottom: rgb(9,28,54);
+    
 }
 
 <<<<<<< HEAD
@@ -90,15 +125,53 @@ p a {
 }
 .twitter-timeline {
     width: 100%
->>>>>>> master
 }
 
 footer {
     border-radius: 0 0 10px 10px;
-<<<<<<< HEAD
     margin-bottom: 20px;   
     text-align: center;
 =======
     margin-bottom: 20px;
->>>>>>> master
 }
+    
+    @media screen and (max-width:600px) {
+    
+    header {
+        text-align: center;
+        font-size: 28px;
+        font-weight:bold;
+    }
+    body{
+        padding: 5%;
+}
+    h1 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: normal;
+}
+    h2 p {
+        text-align: left;
+        font-size: 12px;
+}
+    nav {
+        border: 2px;
+        width: 100%;
+}
+    nav ul {
+        list-style-type: none;
+        padding-left:0;
+        text-align: center;
+}
+    nav li {
+        display: inline;
+        margin-right:10px;
+}
+
+    #meta {
+        clear: left;
+        margin-left: 0;
+        width: 100%;
+}
+}
+
