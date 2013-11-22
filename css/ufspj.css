@@ -10,11 +10,22 @@ body {
 }
 
 img { width: 100%; }
-
+    
+#side-bar{
+            float: right;
+            margin-top: 100px;
+            width:70%
+}
+    
 #wrapper {
     margin: 0 auto;
-    width: 90%;
+    width: 70%;
+    float:inherit;
 }
+
+
+
+
 
 nav, section, footer {
     color: #000;
@@ -59,7 +70,6 @@ section {
 .cta, section p + a {
     background-color: rgba(9,28,54,.7);
     border-radius: 10px;
-    color: rgba(255,255,255,.7);
     display: block;
     margin: 0 auto 20px auto;
     padding: 10px;
@@ -120,6 +130,19 @@ a {
     font-weight:600;
 }
 
+a:link {
+        color: white;
+    }
+
+a:visited {
+        color: purple;
+    }
+    
+a:focus {
+        color: red;
+    }
+
+
 p a {
     font-weight:500;
 }
@@ -173,5 +196,5 @@ footer {
         margin-left: 0;
         width: 100%;
 }
-}
+
 
